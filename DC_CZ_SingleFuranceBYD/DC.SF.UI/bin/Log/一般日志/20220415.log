@@ -1,0 +1,97 @@
+
+----------------------InfoLog --------------------------
+2022-04-15 08:45:15,462 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-04-15 08:45:39,178 [8] INFO  [Title]:一维扫码枪服务启动	[LogContent]:127.0.0.1 : 8099等待连接
+2022-04-15 08:45:44,183 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:46:01,257 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:46:18,312 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:46:35,383 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:46:52,456 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:47:09,518 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:47:26,592 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:47:41,644 [16] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2465 毫秒
+2022-04-15 08:47:41,801 [16] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：156 毫秒
+2022-04-15 08:47:43,661 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:48:00,731 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:48:17,805 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:48:34,872 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:48:51,930 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:49:08,990 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:49:26,066 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:49:43,139 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:49:46,052 [16] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：4244 毫秒
+2022-04-15 08:49:46,393 [16] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：340 毫秒
+2022-04-15 08:50:00,195 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:50:17,251 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:50:34,321 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:50:51,376 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:51:08,447 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:51:20,499 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC失败！请检查线路后，重启上位机！
+2022-04-15 08:51:25,517 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:51:42,588 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:51:49,093 [12] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2689 毫秒
+2022-04-15 08:51:49,251 [12] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：158 毫秒
+2022-04-15 08:51:59,648 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:52:16,704 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:52:33,771 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:52:50,825 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:53:07,902 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:53:24,967 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:53:42,030 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:53:51,674 [4] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2420 毫秒
+2022-04-15 08:53:51,826 [4] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：152 毫秒
+2022-04-15 08:53:59,100 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:54:16,174 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:54:33,261 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:54:50,320 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:55:07,389 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:55:24,459 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:55:41,529 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:55:54,358 [10] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2519 毫秒
+2022-04-15 08:55:54,537 [10] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：179 毫秒
+2022-04-15 08:55:58,595 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:56:15,663 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:56:32,725 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:56:49,806 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:57:06,873 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:57:23,935 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:57:41,002 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:57:57,004 [16] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2453 毫秒
+2022-04-15 08:57:57,167 [16] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：162 毫秒
+2022-04-15 08:57:58,054 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:58:15,122 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:58:32,197 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:58:49,267 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:59:06,325 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:59:23,388 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:59:40,464 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:59:57,519 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 08:59:59,789 [4] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2612 毫秒
+2022-04-15 08:59:59,940 [4] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：151 毫秒
+2022-04-15 09:00:14,587 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:00:31,653 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:00:48,722 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:01:05,781 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:01:22,847 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:01:39,921 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:01:56,980 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:02:02,525 [15] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2561 毫秒
+2022-04-15 09:02:02,677 [15] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：152 毫秒
+2022-04-15 09:02:14,045 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:02:31,098 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:02:48,166 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:03:05,232 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:03:22,296 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:03:39,364 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:03:56,423 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:04:05,367 [4] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2685 毫秒
+2022-04-15 09:04:05,532 [4] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：163 毫秒
+2022-04-15 09:04:13,494 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:04:30,557 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:04:47,634 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:05:04,701 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-04-15 09:05:20,861 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：3558 毫秒
+2022-04-15 09:05:21,095 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：232 毫秒
+2022-04-15 09:05:21,095 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------

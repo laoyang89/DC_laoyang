@@ -1,0 +1,31 @@
+
+----------------------ErrorLog --------------------------
+2022-04-11 09:37:53,112 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-04-11 19:36:06,732 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+2022-04-11 19:36:06,758 [10] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。	   在 System.Net.Sockets.Socket.get_RemoteEndPoint()
+   在 DC.SF.FlowControl.TCPServer.WatchConnecting() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\TCPServer.cs:行号 135
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+----------------------ErrorLog --------------------------
+2022-04-11 19:38:39,492 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------

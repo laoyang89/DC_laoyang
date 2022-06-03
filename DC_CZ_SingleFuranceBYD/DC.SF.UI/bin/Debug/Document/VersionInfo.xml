@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfVersionDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionDetail>
+    <SoftVersion>Ver 1.0.0.1</SoftVersion>
+    <UpdatePerson>赵彬成</UpdatePerson>
+    <UpdateDate>2021-12-01</UpdateDate>
+    <UpdateLog>
+      <string>软件：CAT真空炉</string>
+      <string>1. 添加配置文件错误复制页面</string>
+      <string>2. 修改出炉交互温度判定规则</string>
+    </UpdateLog>
+  </VersionDetail>
+</ArrayOfVersionDetail>

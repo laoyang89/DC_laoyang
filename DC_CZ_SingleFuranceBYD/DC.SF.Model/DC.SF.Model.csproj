@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A785B061-7D44-40C0-B906-7794FA87801E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DC.SF.Model</RootNamespace>
+    <AssemblyName>DC.SF.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug2|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug2\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HslCommunication">
+      <HintPath>..\packages\Lib\HslCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TwinCAT.Ads">
+      <HintPath>..\packages\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADO\AlarmRecord.cs" />
+    <Compile Include="ADO\BatteryLoadBindings.cs" />
+    <Compile Include="ADO\CarDistribution.cs" />
+    <Compile Include="ADO\DeviceParam.cs" />
+    <Compile Include="ADO\EquipmentParameters.cs" />
+    <Compile Include="ADO\EquipmentStatus.cs" />
+    <Compile Include="ADO\AlarmRule.cs" />
+    <Compile Include="ADO\tb_AlarmRecord.cs" />
+    <Compile Include="ADO\tb_Cache.cs" />
+    <Compile Include="ADO\tb_CarrierInfo.cs" />
+    <Compile Include="ADO\tb_CellInfo.cs" />
+    <Compile Include="ADO\tb_ScanCellCode.cs" />
+    <Compile Include="ADO\tb_ScanCodeData.cs" />
+    <Compile Include="ADO\tb_TemperatureInfo.cs" />
+    <Compile Include="ADO\tb_TemperatureInfoBYD.cs" />
+    <Compile Include="ADO\tb_VacuumDegree.cs" />
+    <Compile Include="ADO\tb_VacuumDegreeBYD.cs" />
+    <Compile Include="Attributes\MuchAttribute.cs" />
+    <Compile Include="Attributes\ParsePlcArrAttribute.cs" />
+    <Compile Include="Attributes\ParsePlcArrHighAndLowAttribute.cs" />
+    <Compile Include="Attributes\PropertyChangeTrackingAttribute.cs" />
+    <Compile Include="BF_PLCToStation\PLCToStation.cs" />
+    <Compile Include="Business\AlarmRuleCache.cs" />
+    <Compile Include="Business\CarInfo.cs" />
+    <Compile Include="Business\CellInfo.cs" />
+    <Compile Include="Business\CellModelInfo.cs" />
+    <Compile Include="Business\LayerSendData.cs" />
+    <Compile Include="Business\PropertyChangelog.cs" />
+    <Compile Include="Business\RoleMenuInfo.cs" />
+    <Compile Include="Business\ScanCellInfo.cs" />
+    <Compile Include="Business\StartupCheckInfo.cs" />
+    <Compile Include="ADO\tb_MachineStatusTime.cs" />
+    <Compile Include="Business\TemperatureInfo.cs" />
+    <Compile Include="Business\TrayInfo.cs" />
+    <Compile Include="Business\VacuumDegreeInfo.cs" />
+    <Compile Include="Business\VersionDetail.cs" />
+    <Compile Include="Communication\OneScan.cs" />
+    <Compile Include="Enum\CavityOneCraftStatus.cs" />
+    <Compile Include="Enum\DT_EnumStationStatus.cs" />
+    <Compile Include="Enum\EnumLayerWarn.cs" />
+    <Compile Include="Enum\EnumMachineType.cs" />
+    <Compile Include="Enum\EnumStation.cs" />
+    <Compile Include="Enum\CH_EnumStationStatus.cs" />
+    <Compile Include="Extension\PropertyChangeTrackingExtensions.cs" />
+    <Compile Include="MES\MES_BYD_ResponseModel.cs" />
+    <Compile Include="MES\Mes_DT_Model.cs" />
+    <Compile Include="MES\Mes_LoadModel.cs" />
+    <Compile Include="MES\Mes_RecieveClass.cs" />
+    <Compile Include="MES\Mes_StartCheckModel.cs" />
+    <Compile Include="MES\Mes_UnLoadModel.cs" />
+    <Compile Include="MES\Mes_UpdateTemp.cs" />
+    <Compile Include="PLCRW\AdsPlc_Client.cs" />
+    <Compile Include="PLCRW\OMLPLCFinsTcp_Client.cs" />
+    <Compile Include="PLCRW\PLCClientBase.cs" />
+    <Compile Include="PLC\ADS_PLCModel.cs" />
+    <Compile Include="PLCRW\InovancePLCFinsTcp_Client.cs" />
+    <Compile Include="PLC\PLCField.cs" />
+    <Compile Include="PLC\PLCFieldArray.cs" />
+    <Compile Include="PLC\PLCModel.cs" />
+    <Compile Include="PLC\PLCReadWriteType.cs" />
+    <Compile Include="PLC\PLC_Address_Model.cs" />
+    <Compile Include="Station\CavityStation.cs" />
+    <Compile Include="Station\CH_CavityStation.cs" />
+    <Compile Include="Station\DeviceInfo.cs" />
+    <Compile Include="Station\SaveStation.cs" />
+    <Compile Include="Station\SingleStation.cs" />
+    <Compile Include="Station\StationBase.cs" />
+    <Compile Include="Station\TransferStation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ADO\tb_MenuInfo.cs" />
+    <Compile Include="ADO\tb_OperateRecord.cs" />
+    <Compile Include="ADO\tb_RoleInfo.cs" />
+    <Compile Include="ADO\tb_RoleMenuBinding.cs" />
+    <Compile Include="ADO\tb_UserInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DC.SF.Common\DC.SF.Common.csproj">
+      <Project>{a0272269-6c1e-4cdf-b2e8-8da457d66166}</Project>
+      <Name>DC.SF.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

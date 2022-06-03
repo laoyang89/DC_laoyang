@@ -1,0 +1,5 @@
+1.http://10.62.170.2:9091/CommonService.svc
+svcutil.exe http://10.62.170.2:9091/CommonService.svc?wsdl /out:CommonService.cs /config:App.config
+
+2.http://10.62.170.2:9091/ExpandingBusinessService.svc
+svcutil.exe http://10.62.170.2:9091/ExpandingBusinessService.svc?wsdl /out:ExpandingBusinessService.cs /config:App.config

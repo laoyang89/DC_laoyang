@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B38182E8-1E79-429A-94F8-5860EDA563FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DC.SF.FlowControl</RootNamespace>
+    <AssemblyName>DC.SF.FlowControl</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug2|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug2\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DCJM, Version=1.0.1.2, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Lib\DCJM.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatalogicScanningGun.cs" />
+    <Compile Include="FlowControlCenter.cs" />
+    <Compile Include="PLCFlowFunction.cs" />
+    <Compile Include="PLCFlowFunction_BYD.cs" />
+    <Compile Include="PLC_Flow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FlowControlCenter_ScanFunction.cs" />
+    <Compile Include="RobotServer.cs" />
+    <Compile Include="ScanCode\ScanCodeBase.cs" />
+    <Compile Include="ScanCode\ScanCodeTCP.cs" />
+    <Compile Include="TCPServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DC.SF.BLL\DC.SF.BLL.csproj">
+      <Project>{e4e6aacc-c5ed-4499-8d83-da1d9d7f469d}</Project>
+      <Name>DC.SF.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.Common\DC.SF.Common.csproj">
+      <Project>{a0272269-6c1e-4cdf-b2e8-8da457d66166}</Project>
+      <Name>DC.SF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.DataLibrary\DC.SF.DataLibrary.csproj">
+      <Project>{35e4fb41-d482-4e2d-b378-d95d9bebf954}</Project>
+      <Name>DC.SF.DataLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.MES\DC.SF.MES.csproj">
+      <Project>{4e044198-cdb8-458e-929d-4f82a01743b7}</Project>
+      <Name>DC.SF.MES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.Model\DC.SF.Model.csproj">
+      <Project>{a785b061-7d44-40c0-b906-7794fa87801e}</Project>
+      <Name>DC.SF.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.PLC\DC.SF.PLC.csproj">
+      <Project>{80703b0c-7678-431f-a4fc-08bd724f6045}</Project>
+      <Name>DC.SF.PLC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

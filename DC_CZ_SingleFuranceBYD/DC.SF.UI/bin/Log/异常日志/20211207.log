@@ -1,0 +1,31 @@
+
+----------------------ErrorLog --------------------------
+2021-12-07 09:22:00,886 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+2021-12-07 09:22:40,738 [1] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:数据库 'BYD_DB' 的日志不可用。有关相应错误消息，请查看事件日志。修复所有错误后重新启动数据库。
+当前命令发生了严重错误。应放弃任何可能产生的结果。	   在 DC.SF.DAL.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.DAL\Common\DbHelperSQL.cs:行号 632
+   在 DC.SF.DAL.tb_CacheDAL.UpdateNewCache(Int32 groupId, Int32 cacheType, String variableName, String variableValue) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.DAL\tb_CacheDAL.cs:行号 275
+   在 DC.SF.BLL.tb_CacheBLL.UpdateNewCache(Int32 groupId, Int32 cacheType, String variableName, String variableValue) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\tb_CacheBLL.cs:行号 180
+   在 DC.SF.BLL.tb_CacheBLL.UpdateCarInfoCache(Dictionary`2 dicCarInfo) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\tb_CacheBLL.cs:行号 206
+   在 DC.SF.UI.FormMain.FormMain_FormClosing(Object sender, FormClosingEventArgs e) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\FormMain.cs:行号 187
+   在 System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   在 System.Windows.Forms.Form.WmClose(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.WndProc(Message& msg)
+   在 DC.SF.UI.FormMain.WndProc(Message& m) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\FormMain.cs:行号 319
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+----------------------ErrorLog --------------------------
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+
+ ----------------------ErrorLog --------------------------

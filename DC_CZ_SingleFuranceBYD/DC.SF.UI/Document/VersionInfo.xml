@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfVersionDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <VersionDetail>
+    <SoftVersion>Ver 2.0.0.4</SoftVersion>
+    <UpdatePerson>李振江</UpdatePerson>
+    <UpdateDate>2020-04-13</UpdateDate>
+    <UpdateLog>
+      <string>软件：比亚迪单体炉</string>
+      <string>1. 理清各设备类型代码，使比亚迪代码可运行</string>
+      <string>2. 自动备份数据逻辑修改</string>
+      <string>3. 温度分析添加陈化开始时间和陈化结束时间</string>
+    </UpdateLog>
+  </VersionDetail>
+  <VersionDetail>
+    <SoftVersion>Ver 2.0.0.5</SoftVersion>
+    <UpdatePerson>赵彬成</UpdatePerson>
+    <UpdateDate>2021-05-20</UpdateDate>
+    <UpdateLog>
+      <string>软件：比亚迪单体炉</string>
+      <string>1. 修改出炉强交互温度判定规则，取设定工艺温度±5</string>
+      <string>2. 添加配置文件出错限制，并提供复制备份配置文件进行替换界面</string>
+    </UpdateLog>
+  </VersionDetail>
+  <VersionDetail>
+    <SoftVersion>Ver 2.0.0.6</SoftVersion>
+    <UpdatePerson>赵彬成</UpdatePerson>
+    <UpdateDate>2021-06-18</UpdateDate>
+    <UpdateLog>
+      <string>软件：比亚迪单体炉</string>
+      <string>1. 修改程序缓存保存框架模式，优化系统，修复出现XML崩溃情况</string>
+    </UpdateLog>
+  </VersionDetail>
+</ArrayOfVersionDetail>

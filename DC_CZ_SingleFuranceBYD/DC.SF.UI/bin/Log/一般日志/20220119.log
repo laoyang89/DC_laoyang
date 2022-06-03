@@ -1,0 +1,26 @@
+
+----------------------InfoLog --------------------------
+2022-01-19 09:27:02,180 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-01-19 09:27:25,789 [12] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2022-01-19 09:27:30,810 [9] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 09:27:47,870 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 09:28:04,906 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 09:28:07,601 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：3418 毫秒
+2022-01-19 09:28:07,801 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：198 毫秒
+2022-01-19 09:28:07,801 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------
+
+----------------------InfoLog --------------------------
+2022-01-19 13:42:56,443 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-01-19 13:43:20,002 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2022-01-19 13:43:25,017 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 13:43:42,073 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 13:43:59,114 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 13:44:16,157 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 13:44:33,219 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-19 13:44:34,780 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：3476 毫秒
+2022-01-19 13:44:34,992 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：211 毫秒
+2022-01-19 13:44:34,992 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------

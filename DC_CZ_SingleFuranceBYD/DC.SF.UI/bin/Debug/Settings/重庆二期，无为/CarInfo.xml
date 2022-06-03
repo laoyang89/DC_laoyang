@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<XmlSerialDicOfInt16CH_CarInfo>
+  <item>
+    <key>
+      <short>1</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>EmptyCar</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>2</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>EmptyCar</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>3</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>EmptyCar</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>4</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>5</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>EmptyCar</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>6</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>7</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>EmptyCar</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>8</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>9</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>10</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>11</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <RaiseTime>0</RaiseTime>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <CurrentCraftTime>0</CurrentCraftTime>
+        <TotalCraftTime>0</TotalCraftTime>
+        <GetSampleTime>0001-01-01T00:00:00</GetSampleTime>
+        <strHK_CODE />
+        <FakeCellCodeA />
+        <FakeCellCodeB />
+        <waterValue1>0</waterValue1>
+        <WaterCheckResult1>0</WaterCheckResult1>
+        <WaterCheckResult2>0</WaterCheckResult2>
+        <waterValue2>0</waterValue2>
+        <IHavePutFlag>0</IHavePutFlag>
+        <IsHaveGetFlag>false</IsHaveGetFlag>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftBYDDBId>0</CraftBYDDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <CellACount>0</CellACount>
+        <CellBCount>0</CellBCount>
+        <LayerCount>0</LayerCount>
+        <StationName>未知</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <PreheatStartTime>0001-01-01T00:00:00</PreheatStartTime>
+        <FinishTime>0001-01-01T00:00:00</FinishTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <ISendUnLoadDataFlag>0</ISendUnLoadDataFlag>
+        <IsPLCUnLoadContract>false</IsPLCUnLoadContract>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+        <ArrLayerStatus>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+          <short>0</short>
+        </ArrLayerStatus>
+      </CH_CarInfo>
+    </value>
+  </item>
+</XmlSerialDicOfInt16CH_CarInfo>

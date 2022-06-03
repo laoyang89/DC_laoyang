@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<XmlSerialDicOfInt16CH_CarInfo>
+  <item>
+    <key>
+      <short>1</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>1</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-06T14:25:49.7608822+08:00</StartTime>
+        <EndTime>2019-12-06T14:22:44.553828+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>2</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>2</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-06T14:25:59.7718987+08:00</StartTime>
+        <EndTime>2019-12-06T14:25:04.7105112+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>3</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>3</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-05T17:59:01.5718232+08:00</StartTime>
+        <EndTime>2019-12-06T14:25:34.7450575+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>4</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>4</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-06T14:22:19.5267956+08:00</StartTime>
+        <EndTime>2019-12-06T14:23:09.5720302+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>5</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>5</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-06T14:26:04.7746334+08:00</StartTime>
+        <EndTime>2019-12-06T14:23:39.6066902+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>6</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>6</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-05T17:58:21.5248962+08:00</StartTime>
+        <EndTime>2019-12-05T17:58:41.5386508+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>7</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>7</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-05T17:59:06.5736488+08:00</StartTime>
+        <EndTime>2019-12-06T14:26:04.7756289+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>8</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>8</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>2019-12-05T17:56:46.383639+08:00</StartTime>
+        <EndTime>2019-12-06T14:24:29.6530046+08:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+  <item>
+    <key>
+      <short>9</short>
+    </key>
+    <value>
+      <CH_CarInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HK_Times>0</HK_Times>
+        <RunStatus>CarInBuffer</RunStatus>
+        <TakeSample>NotTakeSample</TakeSample>
+        <CarType>Normal</CarType>
+        <CraftStatus>NoCell</CraftStatus>
+        <TimeOutStatus>NoTimeOut</TimeOutStatus>
+        <OverHeatStatus>NoOverHeat</OverHeatStatus>
+        <waterValue1>0</waterValue1>
+        <waterValue2>0</waterValue2>
+        <CarId>0</CarId>
+        <CraftDBId>0</CraftDBId>
+        <CraftID>0</CraftID>
+        <CellCount>0</CellCount>
+        <LayerCount>0</LayerCount>
+        <StationName>缓存位</StationName>
+        <StartTime>0001-01-01T00:00:00</StartTime>
+        <EndTime>0001-01-01T00:00:00</EndTime>
+        <CraftTime>0</CraftTime>
+        <IsCheckLoadInteract>false</IsCheckLoadInteract>
+        <IsCheckInsertDB>false</IsCheckInsertDB>
+        <ListCellInfo />
+        <ListTempInfo />
+        <ListVacuumValue />
+      </CH_CarInfo>
+    </value>
+  </item>
+</XmlSerialDicOfInt16CH_CarInfo>

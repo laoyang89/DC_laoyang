@@ -1,0 +1,146 @@
+
+----------------------ErrorLog --------------------------
+2022-06-01 18:14:27,515 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 18:30:12,281 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 19:34:51,476 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 19:47:57,342 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 19:58:46,197 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 20:02:32,324 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 20:10:22,662 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 20:12:20,057 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 20:46:59,313 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 21:07:34,920 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 21:54:26,223 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:套接字操作尝试一个无法连接的主机。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 22:16:10,792 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 22:41:39,319 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 22:42:05,144 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 22:43:29,734 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 22:59:02,610 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 23:00:52,674 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 23:03:28,758 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+----------------------ErrorLog --------------------------
+2022-06-01 23:03:54,310 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-06-01 23:29:11,146 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 E:\任务1\DC_CZ_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------

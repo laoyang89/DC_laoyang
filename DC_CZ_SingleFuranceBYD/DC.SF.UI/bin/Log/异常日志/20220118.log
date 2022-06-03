@@ -1,0 +1,43 @@
+
+----------------------ErrorLog --------------------------
+2022-01-18 09:16:20,222 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+2022-01-18 09:16:20,234 [6] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:以一种访问权限不允许的方式做了一个访问套接字的尝试。	   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 DC.SF.FlowControl.TCPServer..ctor() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\TCPServer.cs:行号 90
+   在 DC.SF.FlowControl.TCPServer.get_Instance() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\TCPServer.cs:行号 30
+   在 DC.SF.FlowControl.FlowControlCenter..ctor() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\FlowControlCenter.cs:行号 46
+   在 DC.SF.UI.FrmIndex.<FrmIndex_Load>b__4_0() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\FrmIndex.cs:行号 44
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+----------------------ErrorLog --------------------------
+2022-01-18 09:18:03,911 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-01-18 15:07:56,368 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2022-01-18 15:09:24,912 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------

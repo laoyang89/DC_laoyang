@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9FBFF4C-349D-4724-9CB8-F10713807C62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DC.SF.UI</RootNamespace>
+    <AssemblyName>DCClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>DCPRE-transparent.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug2|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug2\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomUI">
+      <HintPath>..\packages\CustomUI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Drawing, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Extensions, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PubComp.NoSql.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PubComp.NoSql.Core.2.0.0\lib\net45\PubComp.NoSql.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PubComp.NoSql.ServiceStackRedis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PubComp.NoSql.ServiceStackRedis.2.0.0\lib\net45\PubComp.NoSql.ServiceStackRedis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common, Version=3.9.70.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ServiceStack.Common.3.9.70\lib\net35\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ServiceStack.Common.3.9.70\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ServiceStack.Redis.3.9.71\lib\net35\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.70.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ServiceStack.Text.3.9.70\lib\net35\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtraForm\ChildFrmCellDeal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmCellDeal.Designer.cs">
+      <DependentUpon>ChildFrmCellDeal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmSetStarttime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmSetStarttime.Designer.cs">
+      <DependentUpon>ChildFrmSetStarttime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmChangeWaterValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmChangeWaterValue.Designer.cs">
+      <DependentUpon>FrmChangeWaterValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmCopySystemFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmCopySystemFile.Designer.cs">
+      <DependentUpon>FrmCopySystemFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmEnterFalseCellCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmEnterFalseCellCode.Designer.cs">
+      <DependentUpon>FrmEnterFalseCellCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFakeCellCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFakeCellCode.Designer.cs">
+      <DependentUpon>FrmFakeCellCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFurnanceDegree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFurnanceDegree.Designer.cs">
+      <DependentUpon>FrmFurnanceDegree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFurnanceStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmFurnanceStatus.Designer.cs">
+      <DependentUpon>FrmFurnanceStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmMaintainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmMaintainView.Designer.cs">
+      <DependentUpon>FrmMaintainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmManuScanCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmManuScanCode.Designer.cs">
+      <DependentUpon>FrmManuScanCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmTrayCells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmTrayCells.Designer.cs">
+      <DependentUpon>FrmTrayCells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\ManualScanCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\ManualScanCode.Designer.cs">
+      <DependentUpon>ManualScanCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmAlarmHistoryBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmAlarmHistoryBYD.Designer.cs">
+      <DependentUpon>FrmAlarmHistoryBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAnalyzeBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAnalyzeBYD.Designer.cs">
+      <DependentUpon>FrmCellAnalyzeBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellTempBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellTempBYD.Designer.cs">
+      <DependentUpon>FrmCellTempBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmEnterTrayInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmEnterTrayInfo.Designer.cs">
+      <DependentUpon>FrmEnterTrayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmEquipmentBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmEquipmentBYD.Designer.cs">
+      <DependentUpon>FrmEquipmentBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmScanCodeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmScanCodeData.Designer.cs">
+      <DependentUpon>FrmScanCodeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmTemperatureBYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmTemperatureBYD.Designer.cs">
+      <DependentUpon>FrmTemperatureBYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmVacuumDegree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmVacuumDegree.Designer.cs">
+      <DependentUpon>FrmVacuumDegree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\ChildFrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\ChildFrmAbout.Designer.cs">
+      <DependentUpon>ChildFrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmCellAndTemperatureList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmCellAndTemperatureList.Designer.cs">
+      <DependentUpon>ChildFrmCellAndTemperatureList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmCodeListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\ChildFrmCodeListView.Designer.cs">
+      <DependentUpon>ChildFrmCodeListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmInISetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmInISetting.Designer.cs">
+      <DependentUpon>FrmInISetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmRoleMenuManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmRoleMenuManage.Designer.cs">
+      <DependentUpon>FrmRoleMenuManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmUserInfoAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmUserInfoAdd.Designer.cs">
+      <DependentUpon>FrmUserInfoAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\ExtraFrmHelpDocumentation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\ExtraFrmHelpDocumentation.Designer.cs">
+      <DependentUpon>ExtraFrmHelpDocumentation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmAlarmHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmAlarmHistory.Designer.cs">
+      <DependentUpon>FrmAlarmHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCarStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCarStatus.Designer.cs">
+      <DependentUpon>FrmCarStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAndTemperatureAnalyze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAndTemperatureAnalyze.Designer.cs">
+      <DependentUpon>FrmCellAndTemperatureAnalyze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellTemp.Designer.cs">
+      <DependentUpon>FrmCellTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmChangePwd.Designer.cs">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmFactoryDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmFactoryDebug.Designer.cs">
+      <DependentUpon>FrmFactoryDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIndex.Designer.cs">
+      <DependentUpon>FrmIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmLookRunTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmLookRunTime.Designer.cs">
+      <DependentUpon>FrmLookRunTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmOneKeyChangeStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmOneKeyChangeStyle.Designer.cs">
+      <DependentUpon>FrmOneKeyChangeStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmOperateRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmOperateRecord.Designer.cs">
+      <DependentUpon>FrmOperateRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmPLCContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmPLCContract.Designer.cs">
+      <DependentUpon>FrmPLCContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmPwdConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmPwdConfirm.Designer.cs">
+      <DependentUpon>FrmPwdConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmRealHistoryTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmRealHistoryTemp.Designer.cs">
+      <DependentUpon>FrmRealHistoryTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmRealTimeTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmRealTimeTemp.Designer.cs">
+      <DependentUpon>FrmRealTimeTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmSFOneKeyChangeStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmSFOneKeyChangeStyle.Designer.cs">
+      <DependentUpon>FrmSFOneKeyChangeStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraForm\FrmShowLayerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraForm\FrmShowLayerInfo.Designer.cs">
+      <DependentUpon>FrmShowLayerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAnalyze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmCellAnalyze.Designer.cs">
+      <DependentUpon>FrmCellAnalyze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStartupCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStartupCheck.Designer.cs">
+      <DependentUpon>FrmStartupCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibbonForm\FrmSystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmSystemSetting.Designer.cs">
+      <DependentUpon>FrmSystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationForm\FrmTemperature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm\FrmTemperature.Designer.cs">
+      <DependentUpon>FrmTemperature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RibbonForm\FrmUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm\FrmUserManage.Designer.cs">
+      <DependentUpon>FrmUserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\IPAddressTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\IPAddressTextBox.Designer.cs">
+      <DependentUpon>IPAddressTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIHelper\OperateRecordHelper.cs" />
+    <Compile Include="UIHelper\SystemMenuManager.cs" />
+    <Compile Include="UC\NoFreshTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UC\NoFreshTab.Designer.cs">
+      <DependentUpon>NoFreshTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\PagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\PagerControl.Designer.cs">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ShowItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\ShowItemControl.Designer.cs">
+      <DependentUpon>ShowItemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\StationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\StationControl.Designer.cs">
+      <DependentUpon>StationControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ExtraForm\ChildFrmCellDeal.resx">
+      <DependentUpon>ChildFrmCellDeal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\ChildFrmSetStarttime.resx">
+      <DependentUpon>ChildFrmSetStarttime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmChangeWaterValue.resx">
+      <DependentUpon>FrmChangeWaterValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmCopySystemFile.resx">
+      <DependentUpon>FrmCopySystemFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmEnterFalseCellCode.resx">
+      <DependentUpon>FrmEnterFalseCellCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmFakeCellCode.resx">
+      <DependentUpon>FrmFakeCellCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmFurnanceDegree.resx">
+      <DependentUpon>FrmFurnanceDegree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmFurnanceStatus.resx">
+      <DependentUpon>FrmFurnanceStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmMaintainView.resx">
+      <DependentUpon>FrmMaintainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmManuScanCode.resx">
+      <DependentUpon>FrmManuScanCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmTrayCells.resx">
+      <DependentUpon>FrmTrayCells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\ManualScanCode.resx">
+      <DependentUpon>ManualScanCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmAlarmHistoryBYD.resx">
+      <DependentUpon>FrmAlarmHistoryBYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCellAnalyzeBYD.resx">
+      <DependentUpon>FrmCellAnalyzeBYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCellTempBYD.resx">
+      <DependentUpon>FrmCellTempBYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmEnterTrayInfo.resx">
+      <DependentUpon>FrmEnterTrayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmEquipmentBYD.resx">
+      <DependentUpon>FrmEquipmentBYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmScanCodeData.resx">
+      <DependentUpon>FrmScanCodeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmTemperatureBYD.resx">
+      <DependentUpon>FrmTemperatureBYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmVacuumDegree.resx">
+      <DependentUpon>FrmVacuumDegree.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="RibbonForm\ChildFrmAbout.resx">
+      <DependentUpon>ChildFrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\ChildFrmCellAndTemperatureList.resx">
+      <DependentUpon>ChildFrmCellAndTemperatureList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\ChildFrmCodeListView.resx">
+      <DependentUpon>ChildFrmCodeListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmInISetting.resx">
+      <DependentUpon>FrmInISetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmRoleMenuManage.resx">
+      <DependentUpon>FrmRoleMenuManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmUserInfoAdd.resx">
+      <DependentUpon>FrmUserInfoAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\ExtraFrmHelpDocumentation.resx">
+      <DependentUpon>ExtraFrmHelpDocumentation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmAlarmHistory.resx">
+      <DependentUpon>FrmAlarmHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCarStatus.resx">
+      <DependentUpon>FrmCarStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCellAndTemperatureAnalyze.resx">
+      <DependentUpon>FrmCellAndTemperatureAnalyze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCellTemp.resx">
+      <DependentUpon>FrmCellTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmChangePwd.resx">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmFactoryDebug.resx">
+      <DependentUpon>FrmFactoryDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIndex.resx">
+      <DependentUpon>FrmIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmLookRunTime.resx">
+      <DependentUpon>FrmLookRunTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmOneKeyChangeStyle.resx">
+      <DependentUpon>FrmOneKeyChangeStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmOperateRecord.resx">
+      <DependentUpon>FrmOperateRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmPLCContract.resx">
+      <DependentUpon>FrmPLCContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmPwdConfirm.resx">
+      <DependentUpon>FrmPwdConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmRealHistoryTemp.resx">
+      <DependentUpon>FrmRealHistoryTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmRealTimeTemp.resx">
+      <DependentUpon>FrmRealTimeTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmSFOneKeyChangeStyle.resx">
+      <DependentUpon>FrmSFOneKeyChangeStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraForm\FrmShowLayerInfo.resx">
+      <DependentUpon>FrmShowLayerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmCellAnalyze.resx">
+      <DependentUpon>FrmCellAnalyze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStartupCheck.resx">
+      <DependentUpon>FrmStartupCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibbonForm\FrmSystemSetting.resx">
+      <DependentUpon>FrmSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationForm\FrmTemperature.resx">
+      <DependentUpon>FrmTemperature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RibbonForm\FrmUserManage.resx">
+      <DependentUpon>FrmUserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\IPAddressTextBox.resx">
+      <DependentUpon>IPAddressTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\PagerControl.resx">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\ShowItemControl.resx">
+      <DependentUpon>ShowItemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\StationControl.resx">
+      <DependentUpon>StationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\AppSetting.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DC.SF.BLL\DC.SF.BLL.csproj">
+      <Project>{e4e6aacc-c5ed-4499-8d83-da1d9d7f469d}</Project>
+      <Name>DC.SF.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.Common\DC.SF.Common.csproj">
+      <Project>{a0272269-6c1e-4cdf-b2e8-8da457d66166}</Project>
+      <Name>DC.SF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.DataLibrary\DC.SF.DataLibrary.csproj">
+      <Project>{35e4fb41-d482-4e2d-b378-d95d9bebf954}</Project>
+      <Name>DC.SF.DataLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.FlowControl\DC.SF.FlowControl.csproj">
+      <Project>{b38182e8-1e79-429a-94f8-5860eda563fc}</Project>
+      <Name>DC.SF.FlowControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.MES\DC.SF.MES.csproj">
+      <Project>{4e044198-cdb8-458e-929d-4f82a01743b7}</Project>
+      <Name>DC.SF.MES</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.Model\DC.SF.Model.csproj">
+      <Project>{a785b061-7d44-40c0-b906-7794fa87801e}</Project>
+      <Name>DC.SF.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC.SF.PLC\DC.SF.PLC.csproj">
+      <Project>{80703b0c-7678-431f-a4fc-08bd724f6045}</Project>
+      <Name>DC.SF.PLC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_pdf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCPRE-transparent.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Document\VersionInfo.xml" />
+    <Content Include="DCPRE-transparent.ico" />
+    <Content Include="Resources\print_screen.jpg" />
+    <None Include="Resources\search_accounts.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

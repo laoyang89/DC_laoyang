@@ -1,0 +1,24 @@
+
+----------------------InfoLog --------------------------
+2022-05-12 11:10:10,051 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-05-12 11:10:33,648 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:127.0.0.1 : 8099等待连接
+2022-05-12 11:10:38,660 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:10:55,715 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:11:18,238 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:11:35,294 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+
+----------------------InfoLog --------------------------
+2022-05-12 11:12:47,426 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-05-12 11:13:11,016 [11] INFO  [Title]:一维扫码枪服务启动	[LogContent]:127.0.0.1 : 8099等待连接
+2022-05-12 11:13:16,025 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:13:33,115 [8] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:13:50,179 [9] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:14:07,255 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:14:24,320 [8] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:14:41,400 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:14:58,379 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：4461 毫秒
+2022-05-12 11:14:58,464 [9] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-05-12 11:14:58,671 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：292 毫秒
+2022-05-12 11:14:58,672 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------

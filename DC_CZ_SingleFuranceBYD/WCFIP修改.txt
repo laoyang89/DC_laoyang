@@ -1,0 +1,6 @@
+旧：
+http://10.62.170.2:9091/CommonService.svc
+http://10.62.170.2:9091/ExpandingBusinessService.svc
+新
+http://10.62.170.40:9001/CommonService.svc
+http://10.62.170.40:9001/ExpandingBusinessService.svc

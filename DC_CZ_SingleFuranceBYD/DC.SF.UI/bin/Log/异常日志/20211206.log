@@ -1,0 +1,60 @@
+
+----------------------ErrorLog --------------------------
+2021-12-06 21:06:55,188 [1] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:无法找到表 0。	   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 DC.SF.BLL.tb_CacheBLL.GetModelList(String strWhere) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\tb_CacheBLL.cs:行号 126
+   在 DC.SF.BLL.tb_CacheBLL.GetCarInfoJson(Int32 carId) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\tb_CacheBLL.cs:行号 282
+   在 DC.SF.BLL.tb_CacheBLL.GetCarInfoCache(Int32 carId) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\tb_CacheBLL.cs:行号 245
+   在 DC.SF.UI.Program.Initialize() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\Program.cs:行号 190
+   在 DC.SF.UI.Program.Main() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\Program.cs:行号 61
+
+----------------------ErrorLog --------------------------
+2021-12-06 21:08:29,282 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2021-12-06 21:09:26,540 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------
+
+----------------------ErrorLog --------------------------
+2021-12-06 21:12:53,714 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+2021-12-06 21:14:40,092 [1] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:无法找到表 0。	   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 DC.SF.UI.FrmAlarmHistoryBYD.btnSearch_Click(Object sender, EventArgs e) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\NavigationForm\FrmAlarmHistoryBYD.cs:行号 33
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 DC.SF.UI.Program.Main() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\Program.cs:行号 84
+
+----------------------ErrorLog --------------------------
+2021-12-06 21:20:36,015 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------

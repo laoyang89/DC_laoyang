@@ -1,0 +1,16 @@
+
+----------------------ErrorLog --------------------------
+2021-12-10 16:45:55,011 [1] ERROR [Title]:糟糕，程序要崩溃了，请把该信息截屏记录，报告给 【大成精密软件研发部】。 信息:
+
+	[LogContent]:无法找到表 0。	   在 System.Data.DataTableCollection.get_Item(Int32 index)
+   在 DC.SF.BLL.BatteryLoadBindingsBLL.GetModelList(String strWhere) 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.BLL\BatteryLoadBindingsBLL.cs:行号 170
+   在 DC.SF.UI.Program.Initialize() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\Program.cs:行号 196
+   在 DC.SF.UI.Program.Main() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.UI\Program.cs:行号 61
+
+----------------------ErrorLog --------------------------
+2021-12-10 16:53:28,683 [6] ERROR [Title]:连接扫码枪异常	[LogContent]:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.250.6:9004	   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   在 DC.SF.FlowControl.ScanCodeTCP.ConnectGun() 位置 D:\MIB0120\DC_SingleFuranceBYD\DC.SF.FlowControl\ScanCode\ScanCodeTCP.cs:行号 72
+
+ ----------------------ErrorLog --------------------------

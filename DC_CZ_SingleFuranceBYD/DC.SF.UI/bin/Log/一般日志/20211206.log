@@ -1,0 +1,104 @@
+
+----------------------InfoLog --------------------------
+2021-12-06 21:08:24,777 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2021-12-06 21:08:29,286 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2021-12-06 21:08:34,298 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:08:50,432 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2834 毫秒
+2021-12-06 21:08:50,594 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：162 毫秒
+2021-12-06 21:08:50,594 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------
+
+----------------------InfoLog --------------------------
+2021-12-06 21:09:22,152 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2021-12-06 21:09:26,546 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2021-12-06 21:09:31,559 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:09:44,124 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2866 毫秒
+2021-12-06 21:09:44,291 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：166 毫秒
+2021-12-06 21:09:44,291 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------
+
+----------------------InfoLog --------------------------
+2021-12-06 21:12:49,268 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2021-12-06 21:12:53,718 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2021-12-06 21:12:58,724 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:13:15,748 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:13:32,789 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:13:49,832 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:14:06,873 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:14:23,911 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:14:40,970 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+
+----------------------InfoLog --------------------------
+2021-12-06 21:20:31,575 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2021-12-06 21:20:36,018 [10] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2021-12-06 21:20:41,025 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:20:58,083 [8] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:21:16,883 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:21:33,916 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:21:50,974 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:22:07,992 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:22:25,041 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:22:38,013 [18] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：1991 毫秒
+2021-12-06 21:22:38,129 [18] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：115 毫秒
+2021-12-06 21:22:42,060 [18] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:22:59,111 [8] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:23:16,138 [18] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:23:33,178 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:23:50,198 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:24:07,237 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:24:24,277 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:24:40,267 [16] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2136 毫秒
+2021-12-06 21:24:40,379 [16] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：111 毫秒
+2021-12-06 21:24:41,315 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:24:58,355 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:25:15,403 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:25:32,443 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:25:49,478 [16] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:26:06,515 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:26:18,539 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC失败！请检查线路后，重启上位机！
+2021-12-06 21:26:23,544 [18] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:26:40,587 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:26:42,454 [12] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2071 毫秒
+2021-12-06 21:26:42,569 [12] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：115 毫秒
+2021-12-06 21:26:57,639 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:27:14,693 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:27:31,745 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:27:48,780 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:28:05,822 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:28:22,854 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:28:39,893 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:28:44,463 [15] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：1884 毫秒
+2021-12-06 21:28:44,571 [15] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：107 毫秒
+2021-12-06 21:28:56,922 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:29:13,960 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:29:30,996 [15] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:29:48,029 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:30:05,059 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:30:22,089 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:30:39,147 [8] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:30:46,484 [15] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：1905 毫秒
+2021-12-06 21:30:46,592 [15] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：108 毫秒
+2021-12-06 21:30:56,189 [14] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:31:13,246 [18] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:31:30,280 [18] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:31:47,313 [13] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:32:04,353 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:32:21,393 [17] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:32:38,439 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:32:55,486 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:33:12,507 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:33:29,549 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:33:36,972 [8] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：50374 毫秒
+2021-12-06 21:33:39,270 [8] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：2297 毫秒
+2021-12-06 21:33:46,584 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:34:03,616 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:34:20,634 [6] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:34:37,665 [5] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:34:52,964 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：48586 毫秒
+2021-12-06 21:34:54,702 [28] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2021-12-06 21:34:55,418 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：2453 毫秒
+2021-12-06 21:34:55,418 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------

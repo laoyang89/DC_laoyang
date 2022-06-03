@@ -1,0 +1,71 @@
+
+----------------------InfoLog --------------------------
+2022-01-04 16:51:57,270 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-01-04 16:52:28,978 [8] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2022-01-04 16:52:33,997 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:52:59,100 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:53:24,205 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:53:49,288 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:54:14,375 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:54:31,390 [13] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2409 毫秒
+2022-01-04 16:54:31,557 [13] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：165 毫秒
+2022-01-04 16:54:39,500 [12] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:55:04,646 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:55:29,754 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:55:54,826 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:56:19,935 [4] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:56:33,861 [13] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2296 毫秒
+2022-01-04 16:56:33,990 [13] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：129 毫秒
+2022-01-04 16:56:45,046 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:57:10,087 [10] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 16:57:23,957 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：3445 毫秒
+2022-01-04 16:57:24,150 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：193 毫秒
+2022-01-04 16:57:24,150 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------
+
+----------------------InfoLog --------------------------
+2022-01-04 16:59:26,159 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-01-04 16:59:57,746 [9] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2022-01-04 17:00:02,757 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 17:00:27,791 [11] INFO  [Title]:plc连接状态	[LogContent]:断开连接，重连PLC
+2022-01-04 17:00:34,498 [1] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：3506 毫秒
+2022-01-04 17:00:34,707 [1] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：209 毫秒
+2022-01-04 17:00:34,707 [1] INFO  [Title]:系统关闭！	[LogContent]:备份文件完毕！
+
+ ----------------------InfoLog --------------------------
+
+----------------------InfoLog --------------------------
+2022-01-04 17:00:42,764 [1] INFO  [Title]:系统启动！	[LogContent]:初始化已完成！
+2022-01-04 17:00:43,578 [1] INFO  [Title]:软件启动对电气参数的设置	[LogContent]:写入plc"3401"成功
+2022-01-04 17:00:43,579 [1] INFO  [Title]:计算"出炉校验温度合格条数"	[LogContent]:( 360 - 40 )*60/ 60 = 320 分钟
+2022-01-04 17:01:04,201 [8] INFO  [Title]:一维扫码枪服务启动	[LogContent]:System.Net.Sockets.Socket等待连接
+2022-01-04 17:01:10,704 [1] INFO  [Title]:清空提示	[LogContent]:把第12位改成1
+2022-01-04 17:01:10,704 [1] INFO  [Title]:清空提示	[LogContent]:把第12位改成1，单体炉PLC返回信息：
+2022-01-04 17:01:10,704 [1] INFO  [Title]:清空时间提示	[LogContent]:换班时间到，通知PC清空等待来料时间和出料时间
+2022-01-04 17:03:07,067 [38] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2853 毫秒
+2022-01-04 17:03:07,233 [38] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：165 毫秒
+2022-01-04 17:05:10,160 [50] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2913 毫秒
+2022-01-04 17:05:10,365 [50] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：204 毫秒
+2022-01-04 17:07:13,013 [40] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2644 毫秒
+2022-01-04 17:07:13,156 [40] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：144 毫秒
+2022-01-04 17:09:15,876 [104] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2703 毫秒
+2022-01-04 17:09:16,030 [104] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：153 毫秒
+2022-01-04 17:11:18,630 [86] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2592 毫秒
+2022-01-04 17:11:18,772 [86] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：141 毫秒
+2022-01-04 17:13:21,456 [61] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2671 毫秒
+2022-01-04 17:13:21,619 [61] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：161 毫秒
+2022-01-04 17:15:24,173 [95] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2539 毫秒
+2022-01-04 17:15:24,330 [95] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：156 毫秒
+2022-01-04 17:17:26,913 [65] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2581 毫秒
+2022-01-04 17:17:27,067 [65] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：154 毫秒
+2022-01-04 17:19:29,668 [75] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2596 毫秒
+2022-01-04 17:19:29,808 [75] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：139 毫秒
+2022-01-04 17:21:32,379 [72] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2571 毫秒
+2022-01-04 17:21:32,523 [72] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：143 毫秒
+2022-01-04 17:23:35,149 [67] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2619 毫秒
+2022-01-04 17:23:35,302 [67] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：154 毫秒
+2022-01-04 17:25:37,836 [82] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2520 毫秒
+2022-01-04 17:25:37,980 [82] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：144 毫秒
+2022-01-04 17:27:40,551 [82] INFO  [Title]:保存CarInfo对象到数据库	[LogContent]:耗时：2546 毫秒
+2022-01-04 17:27:40,711 [82] INFO  [Title]:保存SaveData对象到数据库	[LogContent]:耗时：159 毫秒
